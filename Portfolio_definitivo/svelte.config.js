@@ -9,7 +9,9 @@ const config = {
             fallback: undefined,
             precompress: false,
             strict: true
-        })
-	}
+        }),
+	paths: {
+		base: process.argv.includes('dev') ? '' : "/Portfolio-di-educazione-civica"
+	}}
 };
 export default config;
