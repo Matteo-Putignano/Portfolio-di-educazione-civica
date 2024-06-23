@@ -1,0 +1,117 @@
+header {
+    position: sticky;
+    top: 5px;
+    z-index: 3;
+}
+.pres {
+    font-size: 70px;
+    text-align: center;    
+    color: red;
+}
+
+.paragrafo1 {
+    display: grid;
+    width: 68%;
+    margin: auto;
+    grid-template-areas: "title title title"
+                         "altro testo testo";
+}
+.paragrafo2 {
+    display: grid;
+    width: 68%;
+    margin: auto;
+    grid-template-areas: "title title title"
+                         "testo testo altro";
+}
+
+.paragrafo3{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.big-title{
+    grid-area: title;
+    font-size: 50px;
+    color: red;
+    margin: 1%;
+    text-align: center;
+}
+.title {
+    grid-area: title;
+    font-size: 35px;
+    color: red;
+    margin: 1%;
+}
+
+.title2{
+    grid-area: title;
+    font-size: 35px;
+    color: red;
+    margin: 1%;
+    text-align: right;
+}
+.titoletto{
+    grid-area: title;
+    font-size: 25px;
+    margin: 1%;
+}
+.altro {
+    grid-area: altro;
+    z-index: 1;
+    margin: auto;
+}
+
+.image-container {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+iframe {
+    width: 460px;
+    border-radius: 20px;
+    margin-top: 5%;
+    height: 320px;
+}
+
+.testo {
+    grid-area: testo;
+    margin: auto;
+}
+
+#girl{
+    width: 700px;
+}
+
+
+p, #uls {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3vw;    
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 150%;
+}
+
+.external-link-icon {
+    position: absolute;
+    z-index: 2;
+    top: 9%;  /* Regola in base alle tue necessità */
+    right: 3%; /* Regola in base alle tue necessità */
+    background-color: rgba(255, 255, 255, 0.8); /* Sfondo semi-trasparente per migliorare la visibilità */
+    border-radius: 50%;
+    padding: 5px; /* Spazio attorno all'icona */
+}
+
+.mafia {
+    line-height: 180%;
+}
